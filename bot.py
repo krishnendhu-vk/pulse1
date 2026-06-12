@@ -2,7 +2,7 @@ import requests
 from datetime import date
 def get_weather (city="Thiruvananthapuram"):
 
-"""Fetch today's weather as a one-line text summary."""
+    """Fetch today's weather as a one-line text summary."""
 
 url = f"https://wttr.in/{city}?format=3"
 
